@@ -5,7 +5,27 @@
 // the first array should have enough space to hold the elements of both arrays.
 
 function mergeSortedArrays(arr1, arr2, m, n) {
-//approach 1:
+//approach 1: 
+
+//   let a1=arr1.slice(0, m).sort((a, b) => a - b); // Get the first m elements of arr1
+//   let a2=arr2.sort((a, b) => a - b);
+//   let p1=0; // Pointer for arr1
+//   let p2=0; // Pointer for arr2
+
+//     for (let i = 0; i < m + n; i++) {
+//     if (p1 < m && (p2 >= n || a1[p1] <= a2[p2])) {
+//       arr1[i] = a1[p1]; // If arr1 has elements left and is less than or equal to arr2, take from arr1
+//       p1++;
+//     } else {
+//       arr1[i] = a2[p2]; // Otherwise, take from arr2
+//       p2++;
+//     }
+
+// }
+//     return arr1; // Return the merged array
+
+
+//approach 2:
 
   let p1 = m - 1; // Pointer for the last element of arr1
   let p2 = n - 1; // Pointer for the last element of arr2
