@@ -156,3 +156,5 @@ p1111 = products("gajar", 40)
 p1.get_info()
 products.get_count()
 p1.cal_discountt(p1.price, 10)
+
+
