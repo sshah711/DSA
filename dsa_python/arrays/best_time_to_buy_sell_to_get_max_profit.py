@@ -1,7 +1,6 @@
 def best_time_to_buy_sell_to_get_max_profit(price):
     profit = 0
     min = price[0]
-    ans = 0
     n = len(price)
     # brute force approach O(n^2)
     # for i in range(n):
