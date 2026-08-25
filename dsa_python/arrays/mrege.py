@@ -1,3 +1,6 @@
+# Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+
+
 def merge( nums1, m, nums2, n):
     # num=nums1[:m]
     # p1=0
