@@ -1,7 +1,7 @@
 # Merge nums1 and nums2 into a single array sorted in non-decreasing order.
 
 
-def merge( nums1, m, nums2, n):
+def merge(nums1, m, nums2, n):
     # num=nums1[:m]
     # p1=0
     # p2=0
@@ -33,8 +33,9 @@ def merge( nums1, m, nums2, n):
 
     return nums1
 
-n1=[1,2,3,0,0,0]
-m=3
-n=3
-n2=[2,4,6]
-print(merge(n1,m,n2,n))
+
+n1 = [1, 2, 3, 0, 0, 0]
+m = 3
+n = 3
+n2 = [2, 4, 6]
+print(merge(n1, m, n2, n))
