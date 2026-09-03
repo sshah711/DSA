@@ -18,6 +18,7 @@ def has_Cycle(head):
 
 
 # better solution using two pointer approach - floyd's cycle detection algorithm
+# if cycle exists then the fast pointer will eventually meet the slow pointer
 # tc- o(n) sc- o(1)
 def has_Cycle1(head):
     slow = head
