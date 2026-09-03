@@ -13,7 +13,6 @@ def Middle_of_the_Linked_List(head):
 
     return slow
 
-# Creating Linked List:
 head = Node(1)
 head.next = Node(2)
 head.next.next = Node(3)
