@@ -3,6 +3,7 @@ class Node:
         self.val = x
         self.next = None
 
+
 # using set to store the nodes and check if we have already seen the node before
 # tc- o(n) sc- o(n)
 def has_Cycle(head):
@@ -48,5 +49,3 @@ head.next.next.next.next.next = node2
 
 # print(has_Cycle(head))
 print(has_Cycle1(head))
-
-
