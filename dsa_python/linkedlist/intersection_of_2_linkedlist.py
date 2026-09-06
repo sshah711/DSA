@@ -19,7 +19,7 @@ def intersection_of_2_linkedlist(headA, headB):
 
     return None
 
-# optimized approach using hashing or set
+# optimized approach using hashing or sets
 def intersection_of_2_linkedlist1(headA, headB):
     # if not headA or not headB:
     #     return None
@@ -30,7 +30,7 @@ def intersection_of_2_linkedlist1(headA, headB):
     while headA:
         nodes.add(headA)
         headA = headA.next
-
+ 
     while headB:
         if headB in nodes:
             return headB
