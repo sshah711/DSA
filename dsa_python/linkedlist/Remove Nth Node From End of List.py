@@ -1,6 +1,3 @@
-from unittest.mock import sentinel
-
-
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -38,7 +35,7 @@ def Remove_Nth_Node_From_End_of_List1(head, n):
     while first.next:
         first = first.next
         second = second.next
-        
+
     second.next = second.next.next
     return sentinel.next
 
